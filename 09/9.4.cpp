@@ -33,9 +33,6 @@ int main() {
 	Box box4(15, 30, 20);
 	cout << "The volume of box4 is " << box4.volume() << endl;
 	
-	
-	
-	
 
 	return 0;
 }
