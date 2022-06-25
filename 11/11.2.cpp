@@ -24,6 +24,7 @@ class Student {
 class Student1: private Student {
 	public:
 		void get_value_1() {
+			get_value();
 			cin >> age >> addr;
 		}
 		
@@ -31,6 +32,7 @@ class Student1: private Student {
 			//cout << "num:" << num << endl;   //private
 			//cout << "name:" << name << endl; //private
 			//cout << "sex:" << sex << endl;   //private
+			display();
 			cout << "age:" << age << endl;
 			cout << "address:" << addr << endl;
 		}
